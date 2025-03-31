@@ -47,7 +47,7 @@ class _SensorReadingPageState extends State<SensorReadingPage> {
         });
       } catch (error) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text("Failed to send sms: $error")),
+          SnackBar(content: Text("Failed to send SMS: $error")),
         );
       }
     } else {

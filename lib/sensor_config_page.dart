@@ -200,8 +200,7 @@ class _SensorConfigPageState extends State<SensorConfigPage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      Icon(Icons.device_hub,
-                          color: Colors.purpleAccent, size: 40),
+                      Icon(Icons.fence, color: Colors.purpleAccent, size: 40),
                       SizedBox(height: 12),
                       Text(
                         sensor!.name,
